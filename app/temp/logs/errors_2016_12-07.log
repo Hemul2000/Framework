@@ -1,0 +1,60 @@
+[07-Dec-2016 16:15:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/746/99746/public_html/lib/DbSimple/Mysql.php:157
+Stack trace:
+#0 /home/746/99746/public_html/lib/DbSimple/Generic.php(593): DbSimple_Mysql->_performQuery(Array)
+#1 /home/746/99746/public_html/lib/DbSimple/Generic.php(306): DbSimple_Generic_Database->_query(Array, false)
+#2 /home/746/99746/public_html/app/classes/Model/Menu.php(7): DbSimple_Generic_Database->query('SELECT * FROM `...')
+#3 /home/746/99746/public_html/app/View/_element/menu.php(4): Model_Menu::go()
+#4 /home/746/99746/public_html/lib/View/Class.php(38): include('/home/746/99746...')
+#5 /home/746/99746/public_html/app/classes/Controller/Pages.php(15): View_Class->render('\xD0\x93\xD0\xBB\xD0\xB0\xD0\xB2\xD0\xBD\xD0\xB0\xD1\x8F')
+#6 [internal function]: Controller_Pages->index()
+#7 /home/746/99746/public_html/lib/function.php(261): ReflectionMethod->invokeArgs(Object(Controller_Pages), Array)
+#8 /home/746/99746/public_html/app/config/bootstrap.php(18): dispatch(Array)
+#9 /home/746/99 in /home/746/99746/public_html/lib/DbSimple/Mysql.php on line 157
+[07-Dec-2016 16:20:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/746/99746/public_html/lib/DbSimple/Mysql.php:157
+Stack trace:
+#0 /home/746/99746/public_html/lib/DbSimple/Generic.php(593): DbSimple_Mysql->_performQuery(Array)
+#1 /home/746/99746/public_html/lib/DbSimple/Generic.php(306): DbSimple_Generic_Database->_query(Array, false)
+#2 /home/746/99746/public_html/app/classes/Model/Menu.php(7): DbSimple_Generic_Database->query('SELECT * FROM `...')
+#3 /home/746/99746/public_html/app/View/_element/menu.php(4): Model_Menu::go()
+#4 /home/746/99746/public_html/lib/View/Class.php(38): include('/home/746/99746...')
+#5 /home/746/99746/public_html/app/classes/Controller/Pages.php(15): View_Class->render('\xD0\x93\xD0\xBB\xD0\xB0\xD0\xB2\xD0\xBD\xD0\xB0\xD1\x8F')
+#6 [internal function]: Controller_Pages->index()
+#7 /home/746/99746/public_html/lib/function.php(261): ReflectionMethod->invokeArgs(Object(Controller_Pages), Array)
+#8 /home/746/99746/public_html/app/config/bootstrap.php(18): dispatch(Array)
+#9 /home/746/99 in /home/746/99746/public_html/lib/DbSimple/Mysql.php on line 157
+[07-Dec-2016 16:45:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/746/99746/public_html/lib/DbSimple/Mysql.php:157
+Stack trace:
+#0 /home/746/99746/public_html/lib/DbSimple/Generic.php(593): DbSimple_Mysql->_performQuery(Array)
+#1 /home/746/99746/public_html/lib/DbSimple/Generic.php(306): DbSimple_Generic_Database->_query(Array, false)
+#2 /home/746/99746/public_html/app/classes/Model/Menu.php(7): DbSimple_Generic_Database->query('SELECT * FROM `...')
+#3 /home/746/99746/public_html/app/View/_element/menu.php(4): Model_Menu::go()
+#4 /home/746/99746/public_html/lib/View/Class.php(27): include('/home/746/99746...')
+#5 /home/746/99746/public_html/app/classes/Controller/Pages.php(15): View_Class->render('\xD0\x93\xD0\xBB\xD0\xB0\xD0\xB2\xD0\xBD\xD0\xB0\xD1\x8F')
+#6 [internal function]: Controller_Pages->index()
+#7 /home/746/99746/public_html/lib/function.php(261): ReflectionMethod->invokeArgs(Object(Controller_Pages), Array)
+#8 /home/746/99746/public_html/app/config/bootstrap.php(13): dispatch(Array)
+#9 /home/746/99 in /home/746/99746/public_html/lib/DbSimple/Mysql.php on line 157
+[07-Dec-2016 16:49:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/746/99746/public_html/lib/DbSimple/Mysql.php:157
+Stack trace:
+#0 /home/746/99746/public_html/lib/DbSimple/Generic.php(593): DbSimple_Mysql->_performQuery(Array)
+#1 /home/746/99746/public_html/lib/DbSimple/Generic.php(306): DbSimple_Generic_Database->_query(Array, false)
+#2 /home/746/99746/public_html/app/classes/Model/Menu.php(7): DbSimple_Generic_Database->query('SELECT * FROM `...')
+#3 /home/746/99746/public_html/app/View/_element/menu.php(4): Model_Menu::go()
+#4 /home/746/99746/public_html/lib/View/Class.php(27): include('/home/746/99746...')
+#5 /home/746/99746/public_html/app/classes/Controller/Pages.php(15): View_Class->render('\xD0\x93\xD0\xBB\xD0\xB0\xD0\xB2\xD0\xBD\xD0\xB0\xD1\x8F')
+#6 [internal function]: Controller_Pages->index()
+#7 /home/746/99746/public_html/lib/function.php(261): ReflectionMethod->invokeArgs(Object(Controller_Pages), Array)
+#8 /home/746/99746/public_html/app/config/bootstrap.php(13): dispatch(Array)
+#9 /home/746/99 in /home/746/99746/public_html/lib/DbSimple/Mysql.php on line 157
+[07-Dec-2016 16:54:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/746/99746/public_html/lib/DbSimple/Mysql.php:157
+Stack trace:
+#0 /home/746/99746/public_html/lib/DbSimple/Generic.php(593): DbSimple_Mysql->_performQuery(Array)
+#1 /home/746/99746/public_html/lib/DbSimple/Generic.php(306): DbSimple_Generic_Database->_query(Array, false)
+#2 /home/746/99746/public_html/app/classes/Model/Menu.php(7): DbSimple_Generic_Database->query('SELECT * FROM `...')
+#3 /home/746/99746/public_html/app/View/_element/menu.php(4): Model_Menu::go()
+#4 /home/746/99746/public_html/lib/View/Class.php(27): include('/home/746/99746...')
+#5 /home/746/99746/public_html/app/classes/Controller/Pages.php(15): View_Class->render('\xD0\x93\xD0\xBB\xD0\xB0\xD0\xB2\xD0\xBD\xD0\xB0\xD1\x8F')
+#6 [internal function]: Controller_Pages->index()
+#7 /home/746/99746/public_html/lib/function.php(261): ReflectionMethod->invokeArgs(Object(Controller_Pages), Array)
+#8 /home/746/99746/public_html/app/config/bootstrap.php(13): dispatch(Array)
+#9 /home/746/99 in /home/746/99746/public_html/lib/DbSimple/Mysql.php on line 157
